@@ -1,4 +1,4 @@
-package movie24.logincontroller;
+package movie24.member.controller;
 
 
 import java.io.IOException;
@@ -14,10 +14,10 @@ import movie24.member.model.service.MovieMemberService;
 import movie24.member.model.vo.MovieMember;
 
 @WebServlet("/movie24/myUpdate.do")
-public class MyInfoController2 extends HttpServlet {
+public class UpdateInfoController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public MyInfoController2() {
+    public UpdateInfoController() {
         super();
         // TODO Auto-generated constructor stub
     }

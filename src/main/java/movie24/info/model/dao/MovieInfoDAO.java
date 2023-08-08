@@ -14,4 +14,9 @@ public class MovieInfoDAO {
 		return miList;
 	}
 
+	public MovieInfo selectOnebyNo(SqlSession session, int movieNum) {
+		MovieInfo mInfo = session.selectOne("InfoMapper.selectOnebyNo", movieNum);
+		return mInfo;
+	}
+
 }

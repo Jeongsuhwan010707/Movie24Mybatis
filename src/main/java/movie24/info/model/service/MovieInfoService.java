@@ -18,10 +18,10 @@ public class MovieInfoService {
 		miDao = new MovieInfoDAO();
 	}
 
-	public List<MovieInfo> selectList() {
+	public MovieInfo selectOnebyNo(int movieNum) {
 		SqlSession session = sqlSessiontemplate.getSqlSession();
-		List<MovieInfo> miList = miDao.selectList(session);
-		return miList;
+		MovieInfo mInfo = miDao.selectOnebyNo(session, movieNum);
+		return mInfo;
 	}
 	
 	

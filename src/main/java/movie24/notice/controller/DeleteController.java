@@ -23,7 +23,7 @@ public class DeleteController extends HttpServlet {
 		int noticeNo = Integer.parseInt(request.getParameter("noticeNo"));
 		int result = service.deleteNoticeByNo(noticeNo);
 		if(result > 0) {
-			response.sendRedirect("/movie24/post.do");
+			response.sendRedirect("/movie24/post.do?currentPage=1");
 		}else {
 			request.setAttribute("msg", "공지사항 삭제가 완료되지 않았습니다.");
 			request.getRequestDispatcher("/WEB-INF/views/successOrFail/serviceFailed.jsp").forward(request, response);

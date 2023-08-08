@@ -40,7 +40,7 @@
                     <div class="popular_image">
                         <ul>
                             <li>
-                                <a href="/movie24/movieInfo.do">
+                                <a href="/movie/info.do?movieNum=1">
                                 	<img id="mainImg1" class="popularPoster"  src="/resources/images/범죄도시.png" alt="">
                                 	<button id="lookDetail1" class="lookDetail" style="cursor:pointer">상세보기</button>
                                	</a>

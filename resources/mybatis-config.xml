@@ -18,5 +18,6 @@
 		<mapper resource="mappers/member-Mapper.xml" />
 		<mapper resource="mappers/notice-Mapper.xml" />
 		<mapper resource="mappers/event-Mapper.xml" />
+		<mapper resource="mappers/info-Mapper.xml" />
 	</mappers>
 </configuration>

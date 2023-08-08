@@ -6,7 +6,9 @@
 	<resultMap type="movie24.info.model.vo.MovieInfo" id="infoResultMap">
 		<id property="movieNum" column="MOVIE_NUM"/>
 		<result property="movieName" column="MOVIE_NAME" />
-		<result property="DDay" column="D_DAY" />
+		<result property="movieSrc" column="MOVIE_SRC" />
+		<result property="dDay" column="D_DAY" />
+		<result property="reservationRate" column="RESERVATION_RATE" />
 		<result property="reservationYN" column="RESERVATION_YN" />
 		<result property="director" column="DIRECTOR" />
 		<result property="actor" column="ACTOR" />
@@ -16,7 +18,7 @@
 		<result property="contentInfo" column="CONTENT_INFO" />
 		<result property="video" column="VIDEO" />
 	</resultMap>
-	<select id="selectList" resultMap="infoResultMap">
-		SELECT * FROM MOVIE_INFO_TBL
+	<select id="selectOnebyNo" resultMap="infoResultMap">
+		SELECT * FROM MOVIE_INFO_TBL WHERE MOVIE_NUM = ${movieNum}
 	</select>
 </mapper>

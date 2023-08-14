@@ -7,8 +7,6 @@
 		<id property="movieNum" column="MOVIE_NUM"/>
 		<result property="movieName" column="MOVIE_NAME" />
 		<result property="movieSrc" column="MOVIE_SRC" />
-		<result property="dDay" column="D_DAY" />
-		<result property="reservationRate" column="RESERVATION_RATE" />
 		<result property="reservationYN" column="RESERVATION_YN" />
 		<result property="director" column="DIRECTOR" />
 		<result property="actor" column="ACTOR" />

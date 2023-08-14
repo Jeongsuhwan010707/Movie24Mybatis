@@ -410,6 +410,9 @@ nav{
         #status{
         	width: 93%;
         }
+        #movieExpl{
+        	line-height:2;
+        }
     /* ----------푸터------------------------- */
 .footer {
     width: 100%;

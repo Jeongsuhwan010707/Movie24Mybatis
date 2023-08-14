@@ -21,10 +21,10 @@
         <div id="image_left">
             <div id="main_title">
                 <h2>${mInfo.movieName }</h2>
-                <span id="span1">예매중</span><span id="span2">D-${mInfo.dDay }</span>
+                <span id="span1">예매중</span><span id="span2">D-10</span>
             </div>
             <div id="main_text1">
-                <p>예매율 ${mInfo.reservationRate }%</p>
+                <p>예매율 90%</p>
             </div>
             <div id="main_text2">
                 <p>감독 : ${mInfo.director } / 배우 : 
@@ -60,7 +60,9 @@
 <!--         <p>어느 날 자신에게 빛보다 빠른 속도로 달리면 시공간 이동 능력이 있음을 알게 된 그는 ‘브루스 웨인’의 만류를 무시한 채 끔찍한 상처로 얼룩진 과거를 바꾸기 위해 시간을 역행한다.<br> -->
 <!--             의도치 않은 장소에 불시착한 ‘플래시’는 멀티버스 세상 속 또 다른 자신과 맞닥뜨리고 메타 휴먼이 흔적도 없이 사라지고 모든 것이 뒤엉킨 세상과 마주하게 된다.<br> -->
 <!--             ‘플래시’는 자신이 알던 모습과 전혀 달라진 나이 들고 은퇴한 ‘배트맨’과 크립톤 행성에서 온 ‘슈퍼걸’의 도움으로 외계의 침공으로부터 시간과 차원이 붕괴된 지구를 구하려 나서는데…</p> -->
-			<p>${mInfo.contentInfo }</p>
+			<p id="movieExpl">
+				<br><br>${mInfo.contentInfo }<br><br><br>
+			</p>
         </div>
         <div id="img_area2">
             <img id="status" src="/resources/images/표.png" alt="">

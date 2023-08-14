@@ -280,6 +280,13 @@ nav{
             font-size: 15px;
             text-align: left;
         }
+        .tr2{
+            padding-bottom: 6px;
+            width: 250px;
+            height: 50px;
+            font-size: 15px;
+            text-align: left;
+        }
         #tr{
         	padding-bottom: 6px;
 		    width: 600px;

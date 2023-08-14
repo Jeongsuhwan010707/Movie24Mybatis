@@ -23,8 +23,8 @@
                     <h1 id="h1-2">[마블] : 플래시</h1>
                     <h2 id="h2-2">초광속 액션 블록버스터!<br>차원이 다른 히어로가 온다!</h2>
                     <!-- <img id="main_trailer" src="/resources/images/marvel_trailer.png" alt=""> -->
-                    <video id="trailer-video1" class="video" src="/resources/images/0526_TF7_1080X608.mp4"></video>
-                    <video id="trailer-video2" class="video" src="/resources/images/플래시.mp4"></video>
+                    <video id="trailer-video1" class="video" src="/resources/videos/트렌스포머.mp4"></video>
+                    <video id="trailer-video2" class="video" src="/resources/videos/플래시.mp4"></video>
                 </div>
                     <div id="stop_area"><a href="javascript:void(0)" onclick="playPause()"><img src="/resources/images/stop.png" alt=""></a></div>
                     <div id="next2"><a href="#" onclick="nextVideo();"><img src="/resources/images/next2.png" alt=""></a></div>
@@ -41,23 +41,23 @@
                         <ul>
                             <li>
                                 <a href="/movie/info.do?movieNum=1">
-                                	<img id="mainImg1" class="popularPoster"  src="/resources/images/범죄도시.png" alt="">
+                                	<img id="mainImg1" class="popularPoster"  src="/resources/images/87090_320.jpg" alt="">
                                 	<button id="lookDetail1" class="lookDetail" style="cursor:pointer">상세보기</button>
                                	</a>
-                                <h4>1) 범죄도시3</h4>
+                                <h4>1) 플래시</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                                 
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-                                	<img id="mainImg2" class="popularPoster" src="/resources/images/인어공주.png" alt="" >
+                                <a href="/movie/info.do?movieNum=2">
+                                	<img id="mainImg2" class="popularPoster" src="/resources/images/범죄도시.png" alt="" >
 	                                <button id="lookDetail2" class="lookDetail" style="cursor:pointer">상세보기</button>
                                	</a>
-                                <h4>2) 인어공주</h4>
+                                <h4>2) 범죄도시3</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
+                                <a href="/movie/info.do?movieNum=3">
                                 	<img id="mainImg3" class="popularPoster" src="/resources/images/분노의질주.png" alt="" >
 	                                <button id="lookDetail3" class="lookDetail" style="cursor:pointer">상세보기</button>
                                 </a>
@@ -65,19 +65,19 @@
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-                                	<img id="mainImg4" class="popularPoster" src="/resources/images/가디언즈.png" alt="" >
+                                <a href="/movie/info.do?movieNum=4">
+                                	<img id="mainImg4" class="popularPoster" src="/resources/images/가디언즈오브갤럭시.png" alt="" >
                             		<button id="lookDetail4" class="lookDetail" style="cursor:pointer">상세보기</button>
                                 </a>
                                 <h4>4) 가디언즈 오브 ...</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-	                                <img id="mainImg5" class="popularPoster" src="/resources/images/남은인생.png" alt="" >
+                                <a href="/movie/info.do?movieNum=5">
+	                                <img id="mainImg5" class="popularPoster" src="/resources/images/위대한쇼맨.jpg" alt="" >
 	                                <button id="lookDetail5" class="lookDetail" style="cursor:pointer">상세보기</button>
                                 </a>
-                                <h4>5) 남은 인생 10년</h4>
+                                <h4>5) 위대한쇼맨</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                         </ul>
@@ -92,43 +92,43 @@
                     <div class="popular_image">
                         <ul>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-                                	<img id="mainImg6" class="popularPoster" src="/resources/images/인어공주.png" alt="">
+                                <a href="/movie/info.do?movieNum=6">
+                                	<img id="mainImg6" class="popularPoster" src="/resources/images/엘리멘탈.jpg" alt="">
                                 	<button id="lookDetail6" class="lookDetail" style="cursor:pointer">상세보기</button>
                                 </a>
-                                <h4>2) 인어공주</h4>
+                                <h4>1) 엘리멘탈</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                            <li>
-                                <a href="/movie24/movieInfo.do">
-                                	<img id="mainImg7" class="popularPoster" src="/resources/images/범죄도시.png" alt="">
+                                <a href="/movie/info.do?movieNum=7">
+                                	<img id="mainImg7" class="popularPoster" src="/resources/images/바비.jpg" alt="">
 	                                <button id="lookDetail7" class="lookDetail" style="cursor:pointer">상세보기</button>
                                 	</a>
-                                <h4>1) 범죄도시3</h4>
+                                <h4>2) 바비</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-	                                <img id="mainImg8" class="popularPoster" src="/resources/images/가디언즈.png" alt="">
+                                <a href="/movie/info.do?movieNum=8">
+	                                <img id="mainImg8" class="popularPoster" src="/resources/images/콘크리트 유토피아.jpg" alt="">
 	                                <button id="lookDetail8" class="lookDetail" style="cursor:pointer">상세보기</button>
                                 </a>
-                                <h4>4) 가디언즈 오브 ...</h4>
+                                <h4>3) 콘크리트 유토피아</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-                                	<img id="mainImg9" class="popularPoster" src="/resources/images/남은인생.png" alt="">
+                                <a href="/movie/info.do?movieNum=9">
+                                	<img id="mainImg9" class="popularPoster" src="/resources/images/밀수.jpg" alt="">
                                 	<button id="lookDetail9" class="lookDetail" style="cursor:pointer">상세보기</button>
                                	</a>
-                                <h4>5) 남은 인생 10년</h4>
+                                <h4>4) 밀수</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                             <li>
-                                <a href="/movie24/movieInfo.do">
-    	                            <img id="mainImg10" class="popularPoster" src="/resources/images/분노의질주.png" alt="">
+                                <a href="/movie/info.do?movieNum=10">
+    	                            <img id="mainImg10" class="popularPoster" src="/resources/images/인어공주.png" alt="">
 	                                <button id="lookDetail10" class="lookDetail" style="cursor:pointer">상세보기</button>
    	                            </a>
-                                <h4>3) 분노의 질주</h4>
+                                <h4>5) 인어공주</h4>
                                 <p>예매율 : 99% | 평점 4.5</p>
                             </li>
                         </ul>
@@ -159,10 +159,10 @@
                         <div id="event_down">
                             <ul>
                                 <li>
-                                    <a href="/movie24/event.do?eventSrcNum=4"><img src="/resources/images/이벤트2열1번.jpg" alt=""></a>
+                                    <a href="/movie24/event.do?eventSrcNum=4"><img id="downImg1" src="/resources/images/이벤트2열1번.jpg" alt=""></a>
                                 </li>
                                 <li>
-                                    <a href="/movie24/event.do?eventSrcNum=5"><img src="/resources/images/이벤트2열2번.jpg" alt=""></a>
+                                    <a href="/movie24/event.do?eventSrcNum=5"><img id="downImg2" src="/resources/images/이벤트2열2번.jpg" alt=""></a>
                                 </li>
                             </ul>
                         </div>

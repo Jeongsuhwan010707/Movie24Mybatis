@@ -6,14 +6,12 @@ public class MovieInfo {
 	private int movieNum;
 	private String movieName;
 	private String movieSrc;
-	private int dDay;
-	private int reservationRate;
 	private String reservationYN;
 	private String director;
 	private String actor;
 	private String genre;
 	private String basicInfo;
-	private Date openDate;
+	private String openDate;
 	private String contentInfo;
 	private String video;
 	
@@ -41,22 +39,6 @@ public class MovieInfo {
 
 	public void setMovieSrc(String movieSrc) {
 		this.movieSrc = movieSrc;
-	}
-
-	public int getdDay() {
-		return dDay;
-	}
-
-	public void setdDay(int dDay) {
-		this.dDay = dDay;
-	}
-
-	public int getReservationRate() {
-		return reservationRate;
-	}
-
-	public void setReservationRate(int reservationRate) {
-		this.reservationRate = reservationRate;
 	}
 
 	public String getReservationYN() {
@@ -99,11 +81,11 @@ public class MovieInfo {
 		this.basicInfo = basicInfo;
 	}
 
-	public Date getOpenDate() {
+	public String getOpenDate() {
 		return openDate;
 	}
 
-	public void setOpenDate(Date openDate) {
+	public void setOpenDate(String openDate) {
 		this.openDate = openDate;
 	}
 
